@@ -3,36 +3,38 @@
 
 ### Design and Analysis of RF Antennas at 433 MHz and 2.4 GHz Using CST Studio Suite
 
-🏆 **Achievement: 2nd Runner-Up**  
-👥 **Team: RESONIX**  
-🏛️ **NMAM Institute of Technology, Nitte, Karnataka, India**
+🏆 **2nd Runner-Up | Team RESONIX**
 
 ---
 
 ## 📡 About the Project
 
-This repository presents the antenna design, electromagnetic simulation, optimization, and performance analysis carried out by **Team RESONIX** for the METIX-RF Students Antenna Design Contest 2026.
+This repository documents the antenna design, modelling, simulation, and performance analysis carried out by **Team RESONIX** for the METIX-RF Students Antenna Design Contest 2026.
 
-The project focuses on designing and analyzing RF antennas operating at **433 MHz and 2.4 GHz** using CST Studio Suite. The work combines theoretical antenna calculations with full-wave electromagnetic simulations to study the effects of antenna geometry and configuration on RF performance.
+The project explores RF antenna configurations operating at **433 MHz and 2.4 GHz**, using CST Studio Suite for full-wave electromagnetic simulation and performance evaluation.
 
-The project covers two contest challenges:
+The work combines theoretical antenna calculations with simulation-based analysis to investigate resonance, impedance matching, bandwidth, gain, directivity, and radiation characteristics.
 
-- **Challenge 1:** Design and analysis of 433 MHz monopole and dipole antennas.
-- **Challenge 3:** Design and analysis of 2.4 GHz monopole, dipole, Yagi-Uda, and microstrip patch antennas.
+### Project Challenges
+
+- **Challenge 1 — 433 MHz:** Design and analysis of monopole and dipole antennas.
+- **Challenge 3 — 2.4 GHz:** Design and analysis of monopole, dipole, Yagi-Uda, and microstrip patch antennas.
 
 ## 🏆 Achievement
 
 **2nd Runner-Up — METIX-RF Students Antenna Design Contest 2026**
 
-This achievement represents our team's collaborative efforts in RF antenna modelling, simulation, optimization, performance evaluation, and technical documentation.
+This achievement represents our team's collaborative efforts in antenna design, electromagnetic simulation, optimization, and technical analysis.
 
 ## 👥 Team Members
 
 ### Team RESONIX
 
-- **Dhanush S. Poojary** — NNM24EC050
-- **Prajwal Poojary** — NNM24EC109
-- **Shraddha S. Devadiga** — NNM24EC153
+| Name | Student ID |
+|---|---|
+| Dhanush S. Poojary | NNM24EC050 |
+| Prajwal Poojary | NNM24EC109 |
+| Shraddha S. Devadiga | NNM24EC153 |
 
 **Department:** Electronics and Communication Engineering  
 **Institution:** NMAM Institute of Technology, Nitte, Karnataka, India
@@ -46,58 +48,69 @@ NMAM Institute of Technology, Nitte
 
 We sincerely thank our mentor for his valuable guidance, technical insights, constructive suggestions, and continuous support throughout the project.
 
-## 🎯 Project Objectives
+## 🎯 Objectives
 
 - Design monopole and dipole antennas for the 433 MHz frequency band.
 - Design monopole, dipole, Yagi-Uda, and microstrip patch antennas for the 2.4 GHz frequency band.
-- Optimize antenna dimensions to achieve resonance close to the target operating frequencies.
+- Tune antenna dimensions to obtain resonance close to the target frequencies.
 - Evaluate S11, VSWR, bandwidth, gain, directivity, and far-field radiation patterns.
 - Compare the simulated performance of different antenna configurations.
 
 ## 🛠️ Tools and Technologies
 
-- **CST Studio Suite** — 3D antenna modelling and electromagnetic simulation.
+- **CST Studio Suite** — Antenna modelling and electromagnetic simulation.
 - **RF Engineering** — Antenna design and performance analysis.
-- **Antenna Theory** — Theoretical dimension calculations and design principles.
+- **Antenna Theory** — Theoretical calculations and design principles.
 
 ## 📶 Antenna Designs and Simulation Results
 
-### 1. 433 MHz Antennas
+### 433 MHz Antennas
 
 | Parameter | Monopole | Dipole |
 |---|---:|---:|
-| Resonance | 433 MHz | 434 MHz |
+| Resonant Frequency | 433 MHz | 434 MHz |
 | S11 | -8.23 dB | -23.53 dB |
 | VSWR | 2.26 | 1.14 |
 | Gain | 1.75 dBi | 1.82 dBi |
 | Directivity | 1.78 dBi | 1.97 dBi |
 | Bandwidth | 30 MHz | 37.27 MHz |
 
-### 2. 2.4 GHz Antennas
+### 2.4 GHz Antennas
 
 | Parameter | Monopole | Dipole | Yagi-Uda | Microstrip Patch |
 |---|---:|---:|---:|---:|
-| Resonance | 2.404 GHz | 2.402 GHz | 2.380 GHz | 2.398 GHz |
+| Resonant Frequency | 2.404 GHz | 2.402 GHz | 2.380 GHz | 2.398 GHz |
 | S11 | -8.04 dB | -32.00 dB | -23.18 dB | -46.06 dB |
 | VSWR | 2.31 | 1.05 | 1.15 | 1.05 |
 | Gain | 1.48 dBi | 1.71 dBi | 8.5 dBi | 3.15 dBi |
 | Directivity | 1.48 dBi | 1.98 dBi | 4.46 dBi | 6.83 dBi |
 | Bandwidth | 272 MHz | 323.5 MHz | 30 MHz | 70 MHz |
 
-*Values are reproduced from the team's project presentation. All results are simulated, not measured hardware results.*
+*Results are taken from our project presentation and represent CST simulation outputs, not physical measurement results.*
 
-## 📊 Performance Analysis
+## 📊 Key Findings
 
-The antenna configurations were evaluated using the following parameters:
+- The 433 MHz dipole achieved better impedance matching than the corresponding monopole in the reported simulations.
+- The 2.4 GHz dipole achieved an S11 of **-32.00 dB** and a VSWR of **1.05**.
+- The 2.4 GHz Yagi-Uda antenna achieved the highest reported gain of **8.5 dBi** among the evaluated configurations.
+- The 2.4 GHz microstrip patch antenna achieved an S11 of **-46.06 dB** and a gain of **3.15 dBi**.
+- The results demonstrate how antenna geometry and configuration influence RF performance.
 
-- **S11:** Evaluates the reflected signal at the antenna input and indicates impedance matching.
-- **VSWR:** Indicates the degree of impedance matching between the antenna and the feed system.
-- **Gain:** Describes the antenna's radiation performance in a given direction.
-- **Directivity:** Indicates the concentration of radiated power in a particular direction.
-- **Bandwidth:** Represents the frequency range over which the antenna satisfies the selected performance criterion.
-- **Radiation Pattern:** Illustrates the spatial distribution of antenna radiation.
+## 📄 Project Documentation
 
-The simulation results demonstrate how antenna geometry and configuration influence impedance matching and radiation characteristics. Among the reported 2.4 GHz results, the Yagi-Uda antenna achieved the highest gain, while the microstrip patch antenna showed the lowest S11 value.
+The complete technical documentation and presentation are available below.
+
+### 📘 Technical Report
+
+**[View or Download the Project Report (PDF)](Report/Team_Resonix_METIX_Report.pdf)**
+
+The report covers theoretical calculations, antenna design parameters, CST modelling, simulation plots, radiation patterns, and performance comparisons.
+
+### 📊 Project Presentation
+
+**[View or Download the Project Presentation (PPTX)](Presentation/METIX_RF_Contest_Presentation.pptx)**
+
+The presentation provides an overview of the project, antenna configurations, simulation results, performance summaries, and conclusions.
 
 ## 📁 Repository Structure
 
@@ -109,49 +122,28 @@ METIX-RF-Antenna-Design-2026/
 ├── Report/
 │   └── Team_Resonix_METIX_Report.pdf
 │
-├── Presentation/
-│   └── METIX_RF_Contest_Presentation.pptx
-│
-├── Antenna_Designs/
-│   ├── 433MHz/
-│   └── 2.4GHz/
-│
-├── CST_Simulations/
-│   ├── S11_Plots/
-│   ├── VSWR/
-│   └── Radiation_Patterns/
-│
-└── Results/
-    └── Performance_Comparison/
+└── Presentation/
+    └── METIX_RF_Contest_Presentation.pptx
 ```
 
-*Folder names illustrate the proposed organization. Add the corresponding files as you upload your project materials.*
+*The documentation links will work after uploading the files with the exact filenames and folder paths shown above.*
 
-## 📄 Project Documentation
-
-This repository includes the following documentation:
-
-- **Technical Report:** Antenna design methodology, theoretical calculations, CST models, simulation results, and performance summaries.
-- **Presentation:** Project overview, antenna configurations, simulation plots, performance comparisons, and conclusions.
-- **Antenna Designs:** Design images and models organized by operating frequency.
-- **Simulation Results:** S11, VSWR, gain, directivity, and radiation pattern outputs.
-
-## 📚 Key Learning Outcomes
+## 📚 Learning Outcomes
 
 Through this project, we gained experience in:
 
-- RF antenna design and electromagnetic modelling.
+- RF antenna modelling and electromagnetic simulation.
 - Applying theoretical calculations to antenna dimensions.
-- Antenna resonance tuning and impedance matching.
-- Interpreting S-parameters and far-field radiation characteristics.
-- Comparing antenna performance across different configurations.
+- Resonance tuning and impedance matching.
+- Analysing S-parameters and far-field radiation characteristics.
+- Evaluating and comparing antenna performance.
 - Collaborative engineering and technical documentation.
 
 ## 🙏 Acknowledgements
 
-We sincerely thank **METIX-RF** for organizing the METIX-RF Students Antenna Design Contest 2026 and providing us with an opportunity to develop our technical knowledge and practical skills in RF engineering.
+We sincerely thank **METIX-RF** for organizing the Students Antenna Design Contest 2026 and providing us with an opportunity to strengthen our practical knowledge of RF engineering and antenna design.
 
-We express our heartfelt gratitude to our mentor, **Dr. Shivakumar B. R., Assistant Professor, Department of Electronics and Communication Engineering, NMAM Institute of Technology, Nitte**, for his valuable guidance, technical insights, constructive suggestions, and continuous encouragement throughout the project.
+We express our heartfelt gratitude to our mentor, **Dr. Shivakumar B. R., Assistant Professor, Department of Electronics and Communication Engineering, NMAM Institute of Technology, Nitte**, for his valuable guidance, technical insights, and continuous encouragement throughout this project.
 
 We also thank the Department of Electronics and Communication Engineering, NMAM Institute of Technology, Nitte, for its academic support and encouragement.
 
